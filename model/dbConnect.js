@@ -35,4 +35,6 @@ console.log('re-sync done');
 db.items = require( "./itemsModel.js")(sequelize, DataTypes);
 db.users = require( "./userModel.js")(sequelize, DataTypes);
 
+
+
 module.exports = db;

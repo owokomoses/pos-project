@@ -3,6 +3,6 @@ module.exports={
     PORT : "4000",
     USER: 'root',
     PASSWORD :"",
-    DB: "pos",
+    DB: "pos_system",
     dialect: "mysql"    
 };
