@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const userRoutes = require('./routes/userRoutes');
 const itemsRoutes = require('./routes/itemsRoutes');
-const dashboardRoutes = require('./routes/dashboardRoutes');
 const bodyParser = require('body-parser');
 const createError = require('http-errors');
 const cors = require('cors');
@@ -22,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/user', userRoutes);
 app.use('/api/items', itemsRoutes);
-app.use('/api/dashboard', dashboardRoutes);
+
 
 
 // Handling 404 error

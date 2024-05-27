@@ -37,4 +37,6 @@ db.users = require( "./userModel.js")(sequelize, DataTypes);
 
 
 
+
+
 module.exports = db;
